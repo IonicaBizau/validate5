@@ -1,0 +1,13 @@
+div[data-validate5-error]:after {
+    content: attr(data-validate5-error);
+    bottom: 6px;
+    margin-left: 20px;
+    color: #e74c3c;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    font-weight: bold;
+}
+
+div[data-validate5-error] input {
+    border: 1px solid #e74c3c !important;
+}
