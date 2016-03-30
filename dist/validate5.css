@@ -8,6 +8,29 @@ div[data-validate5-error]:after {
     font-weight: bold;
 }
 
+div[data-validate5-success]:after {
+    content: "✔";
+    position: absolute;
+    right: 27px;
+    padding: 5px;
+    background: #1abc9c;
+    margin-top: -54px;
+    width: 27px;
+    text-align: center;
+    font-size: 23px;
+    border-radius: 23px;
+    color: white;
+}
+
+div[data-validate5-success] input {
+    background: rgba(52, 218, 87, 0.05);
+    border-color: #27ae60;
+}
+
 div[data-validate5-error] input {
     border: 1px solid #e74c3c !important;
+}
+
+form {
+    display: relative;
 }
