@@ -1,4 +1,4 @@
-# validate-five [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/validate-five.svg)](https://www.npmjs.com/package/validate-five) [![Downloads](https://img.shields.io/npm/dt/validate-five.svg)](https://www.npmjs.com/package/validate-five) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# validate5 [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/validate5.svg)](https://www.npmjs.com/package/validate5) [![Downloads](https://img.shields.io/npm/dt/validate5.svg)](https://www.npmjs.com/package/validate5) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Form validations made easy.
 
@@ -10,7 +10,7 @@ Check out the [`dist`](/dist) directory to download the needed files and include
 If you're using this module in a CommonJS environment, you can install it from `npm` and `require` it:
 
 ```sh
-$ npm i --save validate-five
+$ npm i --save validate5
 ```
 
         
