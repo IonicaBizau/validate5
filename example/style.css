@@ -1,4 +1,4 @@
-@import url(dist/validate5.css);
+@import url(../dist/validate5.css);
 input {
     outline: none;
 }
@@ -22,7 +22,7 @@ input {
     margin: 0;
     padding-top: 45px;
 }
-#top_header > h3 {
+h3 {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 32px;
@@ -137,4 +137,15 @@ div#error {
     color: #fff;
     background: #E54537;
     display: none;
+}
+
+pre {
+    overflow: auto;
+    border: 1px solid #378DE5;
+    padding: 7px;
+    color: #378DE5;
+    border-radius: 4px;
+    font-family: "Monaco", monospace;
+    font-size: 12px;
+    font-weight: bold;
 }
