@@ -2,6 +2,8 @@
 
 > Form validations made easy.
 
+[![validate5](http://i.imgur.com/tLbLEeJ.png)](http://ionicabizau.github.io/validate5/example)
+
 ## :cloud: Installation
     
 

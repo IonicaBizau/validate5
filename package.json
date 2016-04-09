@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/validate5/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/validate5#readme"
+  "homepage": "https://github.com/IonicaBizau/validate5#readme",
+  "blah": {
+      "ex_img": "http://i.imgur.com/tLbLEeJ.png",
+      "ex_url": "http://ionicabizau.github.io/validate5/example"
+  }
 }
