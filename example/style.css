@@ -149,3 +149,7 @@ pre {
     font-size: 12px;
     font-weight: bold;
 }
+
+form {
+    margin-bottom: 100px;
+}
