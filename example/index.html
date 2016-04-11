@@ -35,17 +35,23 @@
                     </form>
                 </div>
                 <h3>How to use</h3>
-                <pre>&lt;form action="#" method="post" accept-charset="UTF-8" style="margin-left:6px;"&gt;
-    &lt;input type="text" name="name" placeholder="Your Name" autofocus/&gt;&lt;br/&gt;
-    &lt;input type="email" name="email" placeholder="Your Email"/&gt;&lt;br/&gt;
-    &lt;input type="text" name="email" placeholder="ZIP (5 numbers)"/&gt;&lt;br/&gt;
-    &lt;input type="submit" value="Submit" /&gt;
-    &lt;script/&gt;
-        validate5("form");
-    &lt;/script&gt;
+                <pre>&lt;form action="#" method="get" accept-charset="UTF-8" style="margin-left:6px;"&gt;
+    &lt;div class="container"&gt;
+        &lt;input type="text" name="name" placeholder="Your Name" autofocus required/&gt;&lt;br/&gt;
+    &lt;/div&gt;
+    &lt;div class="container"&gt;
+        &lt;input type="email" name="email" placeholder="Your Email" required/&gt;&lt;br/&gt;
+    &lt;/div&gt;
+    &lt;div class="container"&gt;
+        &lt;input type="text" name="text" title="Invalid ZIP code." pattern="\d{5}-?(\d{4})?" placeholder="ZIP (5 numbers)" required/&gt;&lt;br/&gt;
+    &lt;/div&gt;
+    &lt;div class="container"&gt;
+        &lt;input type="submit" value="Submit" /&gt;
+    &lt;/div&gt;
 &lt;/form&gt;
-
-                </pre>
+&lt;script/&gt;
+    validate5("form");
+&lt;/script&gt;</pre>
                 <script type="text/javascript">
                     // Simple usage
                     validate5("form");
