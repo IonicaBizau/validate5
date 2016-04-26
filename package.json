@@ -1,6 +1,6 @@
 {
   "name": "validate5",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Form validations made easy.",
   "main": "lib/index.js",
   "scripts": {
@@ -25,7 +25,18 @@
   },
   "homepage": "https://github.com/IonicaBizau/validate5#readme",
   "blah": {
-      "ex_img": "http://i.imgur.com/tLbLEeJ.png",
-      "ex_url": "http://ionicabizau.github.io/validate5/example"
-  }
+    "ex_img": "http://i.imgur.com/tLbLEeJ.png",
+    "ex_url": "http://ionicabizau.github.io/validate5/example"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
