@@ -1,3 +1,4 @@
+
 # validate5 [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/validate5.svg)](https://www.npmjs.com/package/validate5) [![Downloads](https://img.shields.io/npm/dt/validate5.svg)](https://www.npmjs.com/package/validate5) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Form validations made easy.
@@ -5,7 +6,7 @@
 [![validate5](http://i.imgur.com/tLbLEeJ.png)](http://ionicabizau.github.io/validate5/example)
 
 ## :cloud: Installation
-    
+
 
 Check out the [`dist`](/dist) directory to download the needed files and include them on your page.
 
@@ -15,10 +16,10 @@ If you're using this module in a CommonJS environment, you can install it from `
 $ npm i --save validate5
 ```
 
-        
+
 ## :clipboard: Example
 
-        
+
 
 ```js
 /**
@@ -43,9 +44,10 @@ $ npm i --save validate5
 // To validate the forms on submit, use:
 validate5("form");
 ```
-    
+
 ## :memo: Documentation
-        
+
+
 ### `validate5(forms)`
 Handles the submit event on the selected forms.
 
@@ -105,14 +107,16 @@ Validates the form and displays the errors.
 #### Return
 - **Array|Boolean** An array of errors or `false` if all the fields are valid.
 
-        
+
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+
 ## :scroll: License
-    
+
 [MIT][license] © [Ionică Bizău][website]
-    
+
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
