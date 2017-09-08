@@ -22,12 +22,14 @@ validate5.skips.push(function (c) {
 ```
 
 #### Params
+
 - **String** `forms`: The form(s) selector you want to automagically validate on submit.
 
 ### `validateInput(input)`
 Validates an input element.
 
 #### Params
+
 - **HTMLElement** `input`: The input to validate.
 
 #### Return
@@ -37,6 +39,7 @@ Validates an input element.
 Iterate the inputs in the provided form.
 
 #### Params
+
 - **HTMLElement** `formElm`: The form element.
 - **Function** `cb`: The callback function.
 
@@ -47,6 +50,7 @@ Iterate the inputs in the provided form.
 Validates the form element.
 
 #### Params
+
 - **HTMLElement** `formElm`: The form element.
 
 #### Return
@@ -56,6 +60,7 @@ Validates the form element.
 Validates the form and displays the errors.
 
 #### Params
+
 - **HTMLElement** `formElm`: The `<form>` element to validate.
 
 #### Return
