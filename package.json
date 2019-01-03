@@ -1,6 +1,6 @@
 {
   "name": "validate5",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Form validations made easy.",
   "main": "lib/index.js",
   "scripts": {
